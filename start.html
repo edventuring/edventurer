@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Edventurer</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <div class= "chatbot-popup">
+        <!--header-->
+     <div class="chat-header">
+        <div class="header-info">
+            <img class="chatbot-logo"><img src ="Downloads/bot.png" alt="" width="200px" height="160px">
+        <h1 class="logo-text">Edventurer</h1>
+        </div>
+        <button id="close-chatbot"
+        class="material-symbols-outlined">keyboard_arrow_down</button>
+     </div>
+     <!--body-->
+     <div class="chat-body">
+        <div class="message bot-message">
+            <img class="bot-avatar"><img src ="Downloads/bot.png" alt="" width="100px" height="80px">
+            <div class="message-text">Hello, user! My name is Edventurer. How can I help you today?</div>
+            </div>
+            
+             
+        </div>   
+           
+
+            
+            
+    </div>
+    <!--footer-->
+        <div class="chat-footer">
+            <form action="#" class="chat-form">
+                <textarea placeholder="Message..." class="message-input" required>
+                </textarea>
+                <div class="chat-controls">
+                    <button type="button" id="emoji-picker"
+                    class="material-symbols-outlined">mood</button>
+                    <div class="file-upload-wrapper">
+                        <input type="file" accept="images/*" id="file-input" hidden>
+                        <button type="button" id="file-upload" class="material-symbols-outlined">attach_file</button>
+                    </div>
+                    <button type="submit" id="send-message"
+                    class="material-symbols-outlined">arrow_upward</button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/emoji-mart@latest/dist/browser.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
