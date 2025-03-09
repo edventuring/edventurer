@@ -175,6 +175,7 @@ body {
         font-size: 0.95rem;
         border-radius: inherit;
         align-items: center;
+        padding-left: 100px;
         padding-right: 1200px;
         padding-bottom: 40px;
     }
