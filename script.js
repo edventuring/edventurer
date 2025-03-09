@@ -85,7 +85,7 @@ chatBody.appendChild(outgoingMessageDiv);
 chatBody.scrollTo({ top: chatBody.scrollHeight, behavior: "smooth" })
 
 setTimeout(() => {
-    const messageContent = `<img class="bot-avatar"><img src ="Downloads/bot.png" alt="" width="100px" height="80px">
+    const messageContent = `<img class="bot-avatar"><img src ="Downloads/bot.PNG" alt="" width="100px" height="80px">
             <div class="message-text">
                 <div class="thinking-indicator">
                     <div class="dot"></div>
