@@ -154,13 +154,16 @@ body {
         background: none;
         padding: 5px 2px 20px;
     }
-    .chat-footer .chat-form {
+.chat-footer .chat-form {
         display: flex;
         align-items: center;
         background: white;
+        width: 600px;
         border-radius: 32px;
         outline: 1px solid #CCCCE5;
-        padding-left: 80px;
+        padding-left: 700px;
+        margin-right: 90px;
+        margin-top: 10px;
     }
 
     .chat-footer .chat-form:focus-within {
@@ -170,16 +173,16 @@ body {
     .chat-form .message-input {
         border: none;
         outline: none;
-        height: 47px;
-        width: 100%;
+        height: 27px;
+        width: 1200px;
         display: flex;
         align-items: center;
         font-size: 0.95rem;
         border-radius: inherit;
-        padding-top: 80px;
-        padding-left: 80px;
-        border-radius: inherit;
-        padding-right: 1200px;
+        margin-right: 100px;
+        margin-left: -670px;
+
+        
     }
     .chat-form .chat-controls {
         display: flex;
