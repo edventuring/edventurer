@@ -90,7 +90,7 @@ const handleOutgoingMessage = (e) => {
     chatBody.scrollTo({ top: chatBody.scrollHeight, behavior: "smooth" });
 
     setTimeout(() => {
-        const botMessageContent = `<img class="bot-avatar" src="Downloads/bot.png" alt="Bot Avatar" width="100px" height="80px">
+        const botMessageContent = `<img class="bot-avatar" src="bot.png" alt="" width="100px" height="80px">
             <div class="message-text">
                 <div class="thinking-indicator">
                     <div class="dot"></div>
