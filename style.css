@@ -77,6 +77,7 @@ body {
     .chat-body .user-message {
         flex-direction: column;
         align-items: flex-end;
+        padding-right: 20px;
     }
 
 
@@ -86,6 +87,7 @@ body {
         font-size: 1.15rem;
         padding-top: 21px;
         padding-left: 30px;
+         
      }
      .chat-body .bot-message.thinking .message-text {
         padding: 2px 16px;
