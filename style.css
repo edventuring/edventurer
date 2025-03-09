@@ -171,13 +171,12 @@ body {
         border: none;
         outline: none;
         height: 47px;
-        width: 1200px;
+        width: 1100px;
         font-size: 0.95rem;
         border-radius: inherit;
         align-items: center;
-        padding-left: 100px;
         padding-right: 1200px;
-        padding-bottom: 40px;
+        padding-bottom: 20px;
     }
     .chat-form .chat-controls {
         display: flex;
