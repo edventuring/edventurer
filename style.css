@@ -176,6 +176,7 @@ body {
         border-radius: inherit;
         padding-right: 1200px;
         align-items: center;
+        padding-top: 80px;
     }
     .chat-form .chat-controls {
         display: flex;
