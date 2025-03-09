@@ -81,7 +81,6 @@ body {
 
 
      .chat-body .message .message-text {
-        <img><img src ="bot.png" alt="" width="100px" height="80px">
         min-width: 40%;
         height: 100%;
         font-size: 1.15rem;
