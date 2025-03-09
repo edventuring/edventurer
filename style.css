@@ -71,6 +71,7 @@ body {
         scrollbar-color: #ccccf5 transparent;
     }
     .chat-body .message {
+     <img><img src ="bot.png" alt="" width="100px" height="80px">
         display: flex;
         align-items: center;
     }
