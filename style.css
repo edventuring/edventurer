@@ -173,10 +173,9 @@ body {
         height: 47px;
         width: 100%;
         font-size: 0.95rem;
-        margin-left: 70px;
+        margin-left: -70px;
         padding-left: 60px;
         border-radius: inherit;
-        margin-right: 70px;
         padding-right: 1200px;
     }
     .chat-form .chat-controls {
